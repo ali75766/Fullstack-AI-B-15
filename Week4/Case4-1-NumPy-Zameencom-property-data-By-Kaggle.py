@@ -43,11 +43,7 @@ print(" Zameen.com Long - lat - Division:", division)
 
 #Trigonometric Functions
 
-pricePie = (price/np.pi) +1
-# Calculate sine, cosine, and tangent
-sine_values = np.sin(pricePie)
-cosine_values = np.cos(pricePie)
-tangent_values = np.tan(pricePie)
+
 
 print("Zameen.com Price - div - pie  - Sine values:", sine_values)
 print("Zameen.com Price - div - pie Cosine values:", cosine_values)
@@ -89,7 +85,6 @@ print("Zameen.com Price - div - pie   -Inverse Hyperbolic Sine values:", asinh_v
 # Calculate the inverse hyperbolic cosine of each element
 acosh_values = np.arccosh(pricePie)
 print("Zameen.com Price - div - pie   -Inverse Hyperbolic Cosine values:", acosh_values)
-
 
 #Zameen.com Long Plus Lat - 2 dimentional arrary
 D2LongLat = np.array([long,
