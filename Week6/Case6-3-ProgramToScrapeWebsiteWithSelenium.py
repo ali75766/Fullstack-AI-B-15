@@ -5,7 +5,7 @@ import csv
 
 url = "https://nureh.pk/collections/new-in"
 
-cService = webdriver.ChromeService(executable_path='C:\\Users\\HP\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe') # '/Users/bpfalz/Downloads/chromedriver' for my macbook
+cService = webdriver.ChromeService(executable_path='D:\\chromedriver-win64\\chromedriver.exe') # '/Users/bpfalz/Downloads/chromedriver' for my macbook
 driver = webdriver.Chrome(service=cService)
 
 driver.get(url)
